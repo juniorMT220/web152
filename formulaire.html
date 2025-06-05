@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            justify-items: auto;
+        }
+    </style>
+</head>
+<body>
+    <form action="index.html"></form>
+    <fieldset>
+        <legend>inscrit toi  </legend>
+        <div >
+            <label for="nameinput">nom</label>
+            <input type="text" name="firstname" id="nameinput" required> 
+        </div>
+        <div>
+            <label for="nameinput"> prenom</label>
+            <input type="text" name="firstname" id="nameinput" required>
+        </div>
+        <div>
+            <label for="emailinput">email</label>
+            <input type="text" name="email" id="emailinput" required >
+        </div>
+       <div>
+        <label for="birthdateinput"> date de naissance</label>
+        <input type="text" id="birthdateinput" name="birthdateinput" required>
+       </div>
+       <div>
+        <label for="birthplace"> lieu de naissance</label>
+        <select name="birthplace" id="birthplace" required>
+            <option value=""> selectionner une ville</option>
+            <option value="douala">douala</option>
+            <option value="yaounde">yaounde</option>
+            <option value="bertoua">bertoua</option>
+            <option value="adamaoua">adamaoua</option>
+            <option value="baffoussam">baffoussam</option>
+            <option value="ebolowa">ebolowa</option>
+            <option value="ngaoundere">ngaoundere</option>
+        </select>
+       </div>
+       <div>
+        <label for="ageinput">age</label>
+        <input type="text" name="ageinput">
+       </div>
+        <div>
+            <label>sexe</label>
+            <div>
+                <input type="radio" name="sexe" id="masculin">
+                <label for="masculin">masculin</label>
+            </div>
+            <div>
+                <input type="radio" name="sexe" id="feminin">
+                <label for="feminin">feminin</label>  
+            </div> 
+        </div>
+        <div>
+<label for="text"> contact</label>
+<input type="text" name="text">
+        </div>
+        <div>
+            <label for="text">localisation</label>
+            <input type="text">
+        </div>
+      <input type="submit" value="envoyer le formulaire">
+    </fieldset>
+</body>
+</html>
